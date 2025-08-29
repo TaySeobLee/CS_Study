@@ -1,5 +1,0 @@
-add_test( [==[greet works]==] /workspaces/CS_Study/build/dev/tests/cs_tests [==[greet works]==]  )
-set_tests_properties( [==[greet works]==] PROPERTIES WORKING_DIRECTORY /workspaces/CS_Study/build/dev/tests)
-add_test( [==[add works]==] /workspaces/CS_Study/build/dev/tests/cs_tests [==[add works]==]  )
-set_tests_properties( [==[add works]==] PROPERTIES WORKING_DIRECTORY /workspaces/CS_Study/build/dev/tests)
-set( cs_tests_TESTS [==[greet works]==] [==[add works]==])

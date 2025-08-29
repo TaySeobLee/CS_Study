@@ -1,5 +1,0 @@
-if(EXISTS "/workspaces/CS_Study/build/dev/tests/cs_tests-b12d07c_tests.cmake")
-  include("/workspaces/CS_Study/build/dev/tests/cs_tests-b12d07c_tests.cmake")
-else()
-  add_test(cs_tests_NOT_BUILT-b12d07c cs_tests_NOT_BUILT-b12d07c)
-endif()
