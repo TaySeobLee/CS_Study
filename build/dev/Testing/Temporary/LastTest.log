@@ -1,0 +1,43 @@
+Start testing: Aug 29 13:18 UTC
+----------------------------------------------------------
+1/2 Testing: greet works
+1/2 Test: greet works
+Command: "/workspaces/CS_Study/build/dev/tests/cs_tests" "greet works"
+Directory: /workspaces/CS_Study/build/dev/tests
+"greet works" start time: Aug 29 13:18 UTC
+Output:
+----------------------------------------------------------
+Filters: "greet works"
+Randomness seeded to: 3738954419
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"greet works" end time: Aug 29 13:18 UTC
+"greet works" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: add works
+2/2 Test: add works
+Command: "/workspaces/CS_Study/build/dev/tests/cs_tests" "add works"
+Directory: /workspaces/CS_Study/build/dev/tests
+"add works" start time: Aug 29 13:18 UTC
+Output:
+----------------------------------------------------------
+Filters: "add works"
+Randomness seeded to: 2508990445
+===============================================================================
+All tests passed (1 assertion in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"add works" end time: Aug 29 13:18 UTC
+"add works" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 29 13:18 UTC
