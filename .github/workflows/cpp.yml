@@ -9,11 +9,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Install deps
         run: sudo apt-get update && sudo apt-get install -y ninja-build
+
+      - name: Clean build directory
+        run: rm -rf build
+
       - name: Configure
         run: cmake --preset dev
+
       - name: Build
         run: cmake --build --preset dev
+
       - name: Test
         run: ctest --preset dev
